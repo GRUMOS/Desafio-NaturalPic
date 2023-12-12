@@ -15,7 +15,7 @@ const Favorites = () => {
           <Card key={photo.id} photo={photo} />
         )) : (
           <div className="text-center">
-            <h3>No hay fotos favoritas<FontAwesomeIcon icon={faTimes} style={{ fontSize: '2em', color: 'red' }} /></h3>
+            <h3>No existen fotos favoritas<FontAwesomeIcon icon={faTimes} style={{ fontSize: '2em', color: 'red' }} /></h3>
     
           </div>
         )}
